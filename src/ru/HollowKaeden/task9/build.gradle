@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id "com.palantir.docker" version "0.36.0"
+    id "com.palantir.docker-run" version "0.36.0"
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest{
+        attributes 'Main-Class': 'org.example.Main'
+    }
+    destinationDirectory.set(file("$rootDir/docker_folder"))
+}
+
+clean {
+    delete 'docker_folder/task9-1.0-SNAPSHOT.jar'
+}
+
+docker {
+    name "${project.name}:${project.version}"
+    files 'docker_folder/task9-1.0-SNAPSHOT.jar'
+    dockerfile file('docker_folder/Dockerfile')
+}
+dockerRun {
+    name "${project.name}"
+    image "${project.name}:${project.version}"
+    ports '8080:8080'
+
+}
+
+task('dockerWork') {
+    dependsOn 'jar'
+    dependsOn 'docker'
+    dependsOn 'dockerRun'
+    tasks.findByName('docker').mustRunAfter 'jar'
+    tasks.findByName('dockerRun').mustRunAfter 'docker'
+}

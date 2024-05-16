@@ -1,0 +1,134 @@
+1370 [background-preinit] INFO  o.h.validator.internal.util.Version Ц HV000001: Hibernate Validator 8.0.1.Final
+1468 [main] INFO  r.H.task19.Task19Application Ц Starting Task19Application using Java 17.0.8 with PID 24696 (C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task19\build\classes\java\main started by 041 in C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task19)
+1472 [main] INFO  r.H.task19.Task19Application Ц No active profile set, falling back to 1 default profile: "default"
+3527 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3647 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+5353 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
+5390 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+5394 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+5395 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.20]
+5608 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+5609 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 4050 ms
+6218 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+6551 [main] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b8bdcc6
+6554 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+6645 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6837 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+6933 [main] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+7472 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+9296 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+9447 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+9889 [main] INFO  r.H.task19.service.AuthorService Ц Created author repository
+9926 [main] INFO  r.H.task19.service.BookService Ц Created book repository
+10034 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11211 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Ц Exposing 13 endpoint(s) beneath base path '/actuator'
+11330 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+11361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
+11379 [main] INFO  r.H.task19.Task19Application Ц Started Task19Application in 10.648 seconds (process running for 11.808)
+1611 [background-preinit] INFO  o.h.validator.internal.util.Version Ц HV000001: Hibernate Validator 8.0.1.Final
+1728 [main] INFO  r.H.task19.Task19Application Ц Starting Task19Application using Java 17.0.8 with PID 26772 (C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task19\build\classes\java\main started by 041 in C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task19)
+1731 [main] INFO  r.H.task19.Task19Application Ц No active profile set, falling back to 1 default profile: "default"
+4418 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4801 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 351 ms. Found 2 JPA repository interfaces.
+7137 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
+7162 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+7167 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+7168 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.20]
+7336 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+7337 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 5514 ms
+7952 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+8369 [main] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f3f3d00
+8373 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+8472 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+8682 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+8785 [main] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+9615 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+11778 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+11939 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+12445 [main] INFO  r.H.task19.service.AuthorService Ц Created author repository
+12478 [main] INFO  r.H.task19.service.BookService Ц Created book repository
+12597 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13929 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Ц Exposing 13 endpoint(s) beneath base path '/actuator'
+14047 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+14085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
+14106 [main] INFO  r.H.task19.Task19Application Ц Started Task19Application in 13.192 seconds (process running for 14.594)
+22143 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+22144 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+22147 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 3 ms
+30758 [http-nio-8080-exec-3] INFO  r.H.task19.service.BookService Ц Searched for all books
+51469 [http-nio-8080-exec-4] INFO  r.H.task19.service.AuthorService Ц Searched author by id 3
+51555 [http-nio-8080-exec-4] INFO  r.H.task19.service.BookService Ц Added new book
+2540 [background-preinit] INFO  o.h.validator.internal.util.Version Ц HV000001: Hibernate Validator 8.0.1.Final
+2659 [main] INFO  r.H.task20.Task20Application Ц Starting Task20Application using Java 17.0.8 with PID 22564 (C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task20\build\classes\java\main started by 041 in C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task20)
+2662 [main] INFO  r.H.task20.Task20Application Ц No active profile set, falling back to 1 default profile: "default"
+5889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6015 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+7996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
+8017 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+8022 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+8022 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.20]
+8185 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+8185 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 5432 ms
+8852 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+9362 [main] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f0d8937
+9367 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+9506 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+9874 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+10047 [main] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+10808 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+12733 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+12916 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+13502 [main] INFO  r.H.task20.service.AuthorService Ц Created author repository
+13601 [main] INFO  r.H.task20.service.BookService Ц Created book repository
+13760 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15551 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Ц Exposing 13 endpoint(s) beneath base path '/actuator'
+15722 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+15770 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
+15801 [main] INFO  r.H.task20.Task20Application Ц Started Task20Application in 14.271 seconds (process running for 16.45)
+34202 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+34202 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+34204 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+34301 [http-nio-8080-exec-1] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:30:43
+34301 [http-nio-8080-exec-1] INFO  r.H.task20.service.BookService Ц Searched for all books
+37586 [http-nio-8080-exec-3] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:30:46
+37587 [http-nio-8080-exec-3] INFO  r.H.task20.service.AuthorService Ц Searched for all authors
+1712 [background-preinit] INFO  o.h.validator.internal.util.Version Ц HV000001: Hibernate Validator 8.0.1.Final
+1836 [main] INFO  r.H.task20.Task20Application Ц Starting Task20Application using Java 17.0.8 with PID 44504 (C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task20\build\classes\java\main started by 041 in C:\Users\041\Desktop\”чЄба\4_семестр\Java\JavaPatternTasks\src\ru\HollowKaeden\task20)
+1839 [main] INFO  r.H.task20.Task20Application Ц No active profile set, falling back to 1 default profile: "default"
+4104 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4241 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 119 ms. Found 2 JPA repository interfaces.
+5974 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
+5998 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+6004 [main] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+6004 [main] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.20]
+6160 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+6161 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 4210 ms
+6756 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+7177 [main] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64757d56
+7181 [main] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+7290 [main] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+7507 [main] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+7600 [main] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+8278 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+10442 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10627 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+11108 [main] INFO  r.H.task20.service.AuthorService Ц Created author repository
+11176 [main] INFO  r.H.task20.service.BookService Ц Created book repository
+11327 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12667 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Ц Exposing 13 endpoint(s) beneath base path '/actuator'
+12779 [main] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+12818 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
+12837 [main] INFO  r.H.task20.Task20Application Ц Started Task20Application in 11.906 seconds (process running for 13.426)
+56382 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+56383 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+56385 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+56478 [http-nio-8080-exec-2] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:42:58
+56479 [http-nio-8080-exec-2] INFO  r.H.task20.service.BookService Ц Searched for all books
+59856 [http-nio-8080-exec-3] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:43:01
+59856 [http-nio-8080-exec-3] INFO  r.H.task20.service.AuthorService Ц Searched for all authors
+81315 [http-nio-8080-exec-4] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:43:22
+81316 [http-nio-8080-exec-4] INFO  r.H.task20.service.AuthorService Ц Searched author by id 3
+81368 [http-nio-8080-exec-4] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:43:22
+81368 [http-nio-8080-exec-4] INFO  r.H.task20.service.BookService Ц Added new book
+84572 [http-nio-8080-exec-5] INFO  ru.HollowKaeden.task20.Aspect Ц 2024-05-16 17:43:26
+84572 [http-nio-8080-exec-5] INFO  r.H.task20.service.BookService Ц Searched for all books
