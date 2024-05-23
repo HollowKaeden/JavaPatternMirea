@@ -1,6 +1,6 @@
-package ru.HollowKaeden.task20.repository;
+package ru.HollowKaeden.task21.repository;
 
-import ru.HollowKaeden.task20.entity.Book;
+import ru.HollowKaeden.task21.entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

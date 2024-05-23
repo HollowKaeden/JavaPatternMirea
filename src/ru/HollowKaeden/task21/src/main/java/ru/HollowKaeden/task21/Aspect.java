@@ -1,4 +1,4 @@
-package ru.HollowKaeden.task20;
+package ru.HollowKaeden.task21;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -18,6 +18,6 @@ public class Aspect {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         log.info(formatter.format(date));
     }
-    @Pointcut("within(ru.HollowKaeden.task20.service.*)")
+    @Pointcut("within(ru.HollowKaeden.task21.service.*)")
     public void allServiceMethods() {}
 }

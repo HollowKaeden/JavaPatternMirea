@@ -1,4 +1,4 @@
-package ru.HollowKaeden.task20.entity;
+package ru.HollowKaeden.task21.entity;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Entity;

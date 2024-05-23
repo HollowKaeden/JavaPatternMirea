@@ -1,11 +1,11 @@
-package ru.HollowKaeden.task20.service;
+package ru.HollowKaeden.task21.service;
 
-import lombok.AllArgsConstructor;
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.HollowKaeden.task20.dto.BookDTO;
-import ru.HollowKaeden.task20.entity.Book;
-import ru.HollowKaeden.task20.repository.BookRepository;
+import ru.HollowKaeden.task21.dto.BookDTO;
+import ru.HollowKaeden.task21.entity.Book;
+import ru.HollowKaeden.task21.repository.BookRepository;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,6 +21,7 @@ public class BookService {
         this.repository = bookRepository;
     }
 
+    @Transactional
     public Book addBook(BookDTO dto) {
         log.info("Added new book");
         Book book = Book.builder()
@@ -31,21 +32,25 @@ public class BookService {
         return repository.save(book);
     }
 
+    @Transactional
     public List<Book> readAll() {
         log.info("Searched for all books");
         return repository.findAll();
     }
 
+    @Transactional
     public Optional<Book> getById(long id) {
         log.info("Searched book by id " + id);
         return repository.findById(id);
     }
 
+    @Transactional
     public Book update(Book book) {
         log.info("Updated a book");
         return repository.save(book);
     }
 
+    @Transactional
     public void delete(Long id) {
         log.info("Deleted a book by id " + id);
         repository.deleteById(id);

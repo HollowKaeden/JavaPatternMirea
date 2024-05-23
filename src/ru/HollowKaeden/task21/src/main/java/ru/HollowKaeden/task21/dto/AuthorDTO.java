@@ -1,8 +1,8 @@
-package ru.HollowKaeden.task20.dto;
+package ru.HollowKaeden.task21.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import ru.HollowKaeden.task20.entity.Book;
+import ru.HollowKaeden.task21.entity.Book;
 
 import java.util.List;
 

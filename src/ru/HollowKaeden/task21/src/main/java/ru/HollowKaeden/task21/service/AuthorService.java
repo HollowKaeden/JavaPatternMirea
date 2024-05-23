@@ -1,11 +1,11 @@
-package ru.HollowKaeden.task20.service;
+package ru.HollowKaeden.task21.service;
 
-import lombok.AllArgsConstructor;
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.HollowKaeden.task20.dto.AuthorDTO;
-import ru.HollowKaeden.task20.entity.Author;
-import ru.HollowKaeden.task20.repository.AuthorRepository;
+import ru.HollowKaeden.task21.dto.AuthorDTO;
+import ru.HollowKaeden.task21.entity.Author;
+import ru.HollowKaeden.task21.repository.AuthorRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -21,6 +21,7 @@ public class AuthorService {
         this.repository = authorRepository;
     }
 
+    @Transactional
     public Author addAuthor(AuthorDTO dto) {
         log.info("Added new author");
         Author author = Author.builder()
@@ -32,21 +33,25 @@ public class AuthorService {
         return repository.save(author);
     }
 
+    @Transactional
     public List<Author> readAll() {
         log.info("Searched for all authors");
         return repository.findAll();
     }
 
+    @Transactional
     public Optional<Author> getById(long id) {
         log.info("Searched author by id " + id);
         return repository.findById(id);
     }
 
+    @Transactional
     public Author update(Author author) {
         log.info("Updated an author");
         return repository.save(author);
     }
 
+    @Transactional
     public void delete(Long id) {
         log.info("Deleted an author by id " + id);
         repository.deleteById(id);
